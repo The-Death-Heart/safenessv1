@@ -1,7 +1,7 @@
 const configs = {
-    token: env.TOKEN,
+    token: process.env['TOKEN'],
     prefix: "s!",
-    dbLink: env.DBLINK
+    dbLink: process.env['DBLINK']
 };
 
 module.exports = {
